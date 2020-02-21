@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"outDir": "./dist",
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true,
+		"plugins": [{ "transform": "typescript-is/lib/transform-inline/transformer" }],
+		"baseUrl": "./"
+	},
+	"exclude": ["*.test.ts", "test-dir", "dist"],
+}
